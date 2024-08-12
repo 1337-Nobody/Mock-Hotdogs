@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	
+	<link href='./stylesheet.css' rel='stylesheet'>
+	
+</head>
+<title> Harry's Hot Sauce
+ </title>
+<h1>  Welcome to Harry's Hot Sauce HQ  </h1>
+<h2> "Home of the Hottest Darn Hot Sauce in Harryville" </h2> 
+<h3> Stay Tuned for more information and updates on deals and coupons! </h3>
+<h4> Below is a picture of a hotdog for aliens visiting earth in need of hotdogs. </h4>
+<img src="https://ocj.com/wp-content/uploads/2016/12/hotdogBig.png" alt="Picture of a Hotdog" width="659" height ="365"> </img>
+
+<p> Here is a paragraph for no reason other than to exercise the skill of creating elements in html, which stands for hyper text markup language. To utiilize an
+element we first need to figure out what kind of element we want to use. We then take said element and and create an opening and closing bracket with which we 
+can cram the used data inbetween. An example of said thing can be found below. </P> 
+<p> &lt;p&gt; The data placed within the opening and closing bracket is affected by the element &lt;/p&gt; </p>
+<p> Below is the list of ingredients we need to be able to make the hotdogs. </p> 
+<h1> HotDog Ingredients: </h2> 
+<ol>
+	<li> Pork and various chunks of leftover meat. </li> 
+	<li> Harry's Hotter Than Heck Hotdog sauce </li> 
+	<li> Hotdog buns </li> 
+	<li> Any other conidemnts that you may want to put on a hot dog (: </li> 
+</ol>
+<!--- Hello, this is simply a goofy site for me to test my skills in and nothing more, Thank you! --->
+<p> Below is a table, this can be created using the &lt;table&gt; element. We can also color paragraphs green by using in-text CSS even though
+ we probably shouldn't most of the time. we do this by adding " style='color:green;' " inside the first p bracket for the element "paragraph". However
+we have decided to link externally with CSS so as to to make all of the "paragraph" elements appear a certain color. Generally as a rule of thumb it is better
+to link to an external piece of CSS using a url or linking directly if it is in the same directory. </p> 
+<p> The rows are designated with the &lt;tr&gt; element. However, it is best not to use inline CSS and instead to link externally. </P> 
+<p> header rows are designated with the &lt;th&gt; element. Further more, it is important to add closing brackets for both of these elements, 
+as said element is not an exception to the rule of brackets needing to be closed. An important exception to this that is frequently used when coding 
+websites is the &lt;img&gt; element. If you understand html or have practiced it to the point of understanding the basic syntax of the language then you
+will know that &lt;img&gt; stands for image. Otherwise you probably used simple heurestics to figure it out...good for you! </p> 
+<h1> <strong> Good and BAD sauces for Hotdogs: </strong> </h1> 
+<table align="left" width=50% border=1> 
+<!--- Please note, this is deprecated code, normally CSS is used to achieve the border, width, and allignment attributes. However it is nonetheless 
+important to know these so you can troubleshoot the coding of others should you need to. END NOTE. --->
+	<tr> 
+		<th> Good Sauces </th> 
+		<th> Bad Sauces </th> 
+	</tr> 
+	<tr>
+		<td> Siracha </td> 
+		<td> Texas Pete </td> 
+	</tr> 
+	<tr> 
+		<td> Cajun </td> 
+		<td> Mustard..Gross </td> 
+	</tr> 
+</table>
+
+
+
+<p> Tell the CEO of Harry's Hotdog House of Heck what you think below: </p> 
+
+
+<form action="mailto:surgenerr1@mymail.nku.edu" method="POST"> 
+<input type="text" value="type a message"> 
+<input type ="submit"> 
+</form> 
+
+<p> Hotdogs have become mutant zombies, what do you do? </p> 
+
+<input type="radio" name= "ans" value="Join Them"> Join Them </br>
+<input type="radio" name= "ans" value="Eat Them All"> Eat Them All </br>
+<input type="radio" name= "ans" value="Run in Fear"> Run in Fear </br>
+  <section class="Hotdog-type">
+					
+					<label for="bun">What type of Hotdog do you like?</label>
+       
+	<select name="Hotdog" id="Hotdog">
+   <option value="original">Original</option>
+   <option value="cheese filled">Cheese Filled</option>
+   <option value="pepper stuffed">Pepper Stuffed</option>
+     </select>
+        </section>
+	<p> If you could have a life time supply of these three sauces what would you get? </P>
+		<datalist id="sauces">
+            <option value="ketchup"> </option>
+            <option value="mayo"> </option>
+            <option value="hot sauce"> </option>
+          </datalist>
